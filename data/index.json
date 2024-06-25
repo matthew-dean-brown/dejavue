@@ -118,24 +118,24 @@
             "id": "1",
             "firstName": "",
             "lastName": "",
-            "gender": "",
-            "profile": "male",
+            "gender": "male",
+            "profile": "",
             "contactDetails": ""
         },
         {
             "id": "2",
             "firstName": "",
             "lastName": "",
-            "gender": "",
-            "profile": "male",
+            "gender": "male",
+            "profile": "",
             "contactDetails": ""
         },
         {
             "id": "3",
             "firstName": "",
             "lastName": "",
-            "gender": "",
-            "profile": "female",
+            "gender": "female",
+            "profile": "",
             "contactDetails": ""
         }
     ]
