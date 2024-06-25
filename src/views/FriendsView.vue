@@ -1,6 +1,7 @@
 <template>
     <div>
         <!-- comment -->
+        <!-- hehe -->
         FriendsView
         <article v-for="friend in getFriends()" :key="friend.id">
             <section :style="{border: `3px solid ${friend.gender == 'male'? 'gold':'green'}`}">
