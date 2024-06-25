@@ -119,7 +119,23 @@
             "firstName": "",
             "lastName": "",
             "gender": "",
-            "profile": "",
+            "profile": "male",
+            "contactDetails": ""
+        },
+        {
+            "id": "",
+            "firstName": "",
+            "lastName": "",
+            "gender": "",
+            "profile": "male",
+            "contactDetails": ""
+        },
+        {
+            "id": "",
+            "firstName": "",
+            "lastName": "",
+            "gender": "",
+            "profile": "female",
             "contactDetails": ""
         }
     ]
