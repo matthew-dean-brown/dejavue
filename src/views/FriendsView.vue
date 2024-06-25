@@ -1,9 +1,11 @@
 <template>
     <div>
+        <!-- comment -->
         FriendsView
-        <article v-for="friend in getFriends()">
+        <article v-for="friend in getFriends()" :key="friend.id">
             <section :style="{border: `3px solid ${friend.gender == 'male'? 'gold':'green'}`}">
-                {{friend}}
+                {{friend.gender}}
+                <p :style="{backgroundColor:`${}`}">{{friend.id}}</p>
 
             </section>
         </article>

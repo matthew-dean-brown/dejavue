@@ -1,5 +1,6 @@
 import { createStore } from 'vuex'
 import axios from 'axios'
+
 export default createStore({
   state: {
     friends:null,
@@ -21,9 +22,9 @@ export default createStore({
   },
   actions: {
     async getInfo({commit}){
-      let api = await axios.get('https://matthew-dean-brown.github.io/dejavue/data/')
-      let {cars, friends, gaming_consoles} = api.data
-      console.log(api);
+      let {data} = await axios.get('https://matthew-dean-brown.github.io/dejavue/data/')
+      let {cars, friends, gaming_consoles} = data
+      // console.log(api.data);
       commit('setCars', cars)
       commit('setConsoles', gaming_consoles)
       commit('setFriends', friends)
